@@ -1,0 +1,15 @@
+[package]
+name = "io-recorder"
+version = "0.1.0"
+authors = ["Pascal Bach <pascal.bach@nextrem.ch>"]
+description = "Record IO done via embedded-hal."
+license = "MIT"
+repository = "https://github.com/bachp/io-recorder"
+keywords = ["hal", "IO"]
+
+[dependencies]
+embedded-hal = "0.2.2"
+serde = "1.0.80"
+serde_derive = "1.0.80"
+csv = "1.0.2"
+chrono = { version = "0.4", features = ["serde"] }
